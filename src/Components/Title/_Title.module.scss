@@ -1,0 +1,14 @@
+@import '../../App.scss';
+
+.title {
+    background: $primary-color;
+    padding: 20px 0 20px 0;
+    margin-top: 30px;
+    border-radius: 20px;
+    h1 {
+        text-align: center;
+        font-family: $font-primary;
+        color: white;
+        font-size: $primary-title;
+    }
+}

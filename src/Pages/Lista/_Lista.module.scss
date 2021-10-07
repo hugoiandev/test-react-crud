@@ -1,0 +1,51 @@
+@import '../../App';
+
+.lista {
+    margin-top: 30px;
+    background: $primary-color;
+    .divlist {
+        margin-bottom: 30px;
+        background: $secundary-color;
+        padding: 10px 0 10px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul {
+            li {
+                margin-bottom: 5px;
+                font-family: 'Nunito', sans-serif;
+                list-style: none;
+                color: white;
+            }
+        }
+        .icons {
+            margin-right: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            button {
+                background: none;
+                border: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
+.edit {
+    position: relative;
+    top: -600px;
+    left: 150px;
+    max-width: 600px;
+    transition: .3s;
+    .quit {
+        float: right;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+}

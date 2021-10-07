@@ -1,0 +1,19 @@
+@import '../../App';
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    button{
+        font-family: $font-primary;
+        font-size: 1em;
+        background: #ced4da;
+        padding: 10px 100px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        &:focus {
+            outline: 2px solid #fb1;
+        }
+    }
+}
